@@ -1,0 +1,321 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Jun 19 08:17:49 2017
+# Process ID: 32340
+# Log file: D:/FPGA_basys3/code_key/code_key.runs/synth_1/code_key_top.vds
+# Journal file: D:/FPGA_basys3/code_key/code_key.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source code_key_top.tcl -notrace
+Command: synth_design -top code_key_top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 264.109 ; gain = 71.352
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'code_key_top' [D:/FPGA_basys3/code_key/code_key.srcs/sources_1/new/code_key_top.v:22]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [D:/FPGA_basys3/code_key/code_key.srcs/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (1#1) [D:/FPGA_basys3/code_key/code_key.srcs/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-256] done synthesizing module 'code_key_top' (2#1) [D:/FPGA_basys3/code_key/code_key.srcs/sources_1/new/code_key_top.v:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 298.305 ; gain = 105.547
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 298.305 ; gain = 105.547
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc]
+WARNING: [Vivado 12-584] No ports matched 'btn_l'. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_l'. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_r'. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_r'. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_u'. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_u'. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_d'. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_d'. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/FPGA_basys3/code_key/code_key.srcs/constrs_1/new/code_key.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 591.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module code_key_top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+Module clk_div 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 591.090 ; gain = 398.332
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\reg_n_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reg_n_reg[6] )
+WARNING: [Synth 8-3332] Sequential element (\U1/clk_cnt_reg[11] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\U1/clk_cnt_reg[12] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\U1/clk_cnt_reg[13] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\U1/clk_cnt_reg[14] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\U1/clk_cnt_reg[15] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\U1/clk_cnt_reg[16] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\U1/clk_cnt_reg[17] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\U1/clk_cnt_reg[18] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\U1/clk_cnt_reg[19] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\U1/clk_cnt_reg[20] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\reg_n_reg[6] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\reg_n_reg[4] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\reg_n_reg[1] ) is unused and will be removed from module code_key_top.
+WARNING: [Synth 8-3332] Sequential element (\reg_n_reg[0] ) is unused and will be removed from module code_key_top.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 591.090 ; gain = 398.332
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     3|
+|3     |LUT1   |    11|
+|4     |LUT2   |     5|
+|5     |LUT3   |     1|
+|6     |LUT4   |     2|
+|7     |LUT5   |     2|
+|8     |LUT6   |     3|
+|9     |FDCE   |    11|
+|10    |FDRE   |    11|
+|11    |IBUF   |    18|
+|12    |OBUF   |    27|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+--------+------+
+|      |Instance |Module  |Cells |
++------+---------+--------+------+
+|1     |top      |        |    95|
+|2     |  U1     |clk_div |    26|
++------+---------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 591.090 ; gain = 398.332
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 591.090 ; gain = 66.059
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 591.090 ; gain = 398.332
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 22 Warnings, 8 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 591.090 ; gain = 381.215
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 591.090 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 19 08:18:33 2017...
