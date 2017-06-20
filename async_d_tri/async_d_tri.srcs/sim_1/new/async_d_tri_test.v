@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 2017/06/20 16:14:12
+// Create Date: 2017/06/21 00:59:25
 // Design Name: 
-// Module Name: sync_dd_tri_test
+// Module Name: async_d_tri_test
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module sync_dd_tri_test();
+module async_d_tri_test();
+
 	reg clk=0;
 	reg rst;
 	reg D;
@@ -28,12 +29,13 @@ module sync_dd_tri_test();
 	wire Q;
 	wire Q_n;
 
-	sync_dd_tri U1(
+	async_d_tri U1(
 		.clk(clk),
 		.rst(rst),
 		.D(D),
 		.Q(Q),
 		.Q_n(Q_n));
+
 
 	always begin 
 		#10;
@@ -42,15 +44,15 @@ module sync_dd_tri_test();
 
 	always begin 
 		rst = 1;
-		#500;
+		#100;
 		rst = 0;
-		#500;
+		#100;
 	end
 
 	always begin 
-		D = 0;
-		#50;
 		D = 1;
-		#50;
+		#20;
+		D = 0;
+		#20;
 	end
 endmodule

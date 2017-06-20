@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/async_d_tri/async_d_tri.srcs/sources_1/new/async_d_tri.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module async_d_tri
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/async_d_tri/async_d_tri.srcs/sim_1/new/async_d_tri_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module async_d_tri_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/async_d_tri/async_d_tri.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

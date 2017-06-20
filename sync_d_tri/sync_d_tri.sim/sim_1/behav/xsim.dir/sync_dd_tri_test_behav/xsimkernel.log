@@ -2,3 +2,6 @@ Running: xsim.dir/sync_dd_tri_test_behav/xsimk.exe -simmode gui -wdb sync_dd_tri
 Design successfully loaded
 Design Loading Memory Usage: 21232 KB (Peak: 21232 KB)
 Design Loading CPU Usage: 218 ms
+Simulation completed
+Simulation Memory Usage: 21628 KB (Peak: 21628 KB)
+Simulation CPU Usage: 218 ms
