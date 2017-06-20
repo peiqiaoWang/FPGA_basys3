@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../one_hot_state.srcs/sources_1/new/one_hot.v"
+verilog xil_defaultlib  "../../../one_hot_state.srcs/sim_1/new/one_hot_test.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

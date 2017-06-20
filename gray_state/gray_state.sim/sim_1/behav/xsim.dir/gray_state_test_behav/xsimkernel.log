@@ -2,3 +2,6 @@ Running: xsim.dir/gray_state_test_behav/xsimk.exe -simmode gui -wdb gray_state_t
 Design successfully loaded
 Design Loading Memory Usage: 21824 KB (Peak: 21824 KB)
 Design Loading CPU Usage: 124 ms
+Simulation completed
+Simulation Memory Usage: 22228 KB (Peak: 22228 KB)
+Simulation CPU Usage: 139 ms

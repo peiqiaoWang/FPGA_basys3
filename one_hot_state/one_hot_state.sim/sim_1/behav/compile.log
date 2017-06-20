@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/one_hot_state/one_hot_state.srcs/sources_1/new/one_hot.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_hot
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/one_hot_state/one_hot_state.srcs/sim_1/new/one_hot_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_hot_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/one_hot_state/one_hot_state.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
