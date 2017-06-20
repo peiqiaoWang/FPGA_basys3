@@ -2,3 +2,6 @@ Running: xsim.dir/add_counter_behav/xsimk.exe -simmode gui -wdb add_counter_beha
 Design successfully loaded
 Design Loading Memory Usage: 21780 KB (Peak: 21780 KB)
 Design Loading CPU Usage: 203 ms
+Simulation completed
+Simulation Memory Usage: 22160 KB (Peak: 22160 KB)
+Simulation CPU Usage: 218 ms

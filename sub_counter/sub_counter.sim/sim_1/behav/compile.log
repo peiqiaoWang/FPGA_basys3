@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/sub_counter/sub_counter.srcs/sources_1/new/sub_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/sub_counter/sub_counter.srcs/sim_1/new/sub_counter_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_counter_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/sub_counter/sub_counter.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
