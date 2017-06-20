@@ -2,3 +2,6 @@ Running: xsim.dir/sub_counter_test_behav/xsimk.exe -simmode gui -wdb sub_counter
 Design successfully loaded
 Design Loading Memory Usage: 21972 KB (Peak: 21972 KB)
 Design Loading CPU Usage: 171 ms
+Simulation completed
+Simulation Memory Usage: 22376 KB (Peak: 22376 KB)
+Simulation CPU Usage: 171 ms
