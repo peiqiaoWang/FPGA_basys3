@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/sync_rst_tri/sync_rst_tri.srcs/sources_1/new/sync_rs_tri.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_rs_tri
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/sync_rst_tri/sync_rst_tri.srcs/sim_1/new/sync_rs_tri_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_rs_tri_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/sync_rst_tri/sync_rst_tri.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

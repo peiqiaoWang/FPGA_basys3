@@ -2,3 +2,6 @@ Running: xsim.dir/async_d_tri_test_behav/xsimk.exe -simmode gui -wdb async_d_tri
 Design successfully loaded
 Design Loading Memory Usage: 21360 KB (Peak: 21360 KB)
 Design Loading CPU Usage: 218 ms
+Simulation completed
+Simulation Memory Usage: 21752 KB (Peak: 21752 KB)
+Simulation CPU Usage: 218 ms

@@ -1,0 +1,4 @@
+Running: xsim.dir/sync_rs_tri_test_behav/xsimk.exe -simmode gui -wdb sync_rs_tri_test_behav.wdb -simrunnum 0 -socket 56851
+Design successfully loaded
+Design Loading Memory Usage: 21788 KB (Peak: 21788 KB)
+Design Loading CPU Usage: 140 ms
