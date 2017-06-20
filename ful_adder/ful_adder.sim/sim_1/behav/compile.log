@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/ful_adder/ful_adder.srcs/sources_1/new/ful_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ful_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/ful_adder/ful_adder.srcs/sim_1/new/ful_adder_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ful_adder_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_basys3/ful_adder/ful_adder.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

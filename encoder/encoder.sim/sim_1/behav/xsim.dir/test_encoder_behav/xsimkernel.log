@@ -2,3 +2,6 @@ Running: xsim.dir/test_encoder_behav/xsimk.exe -simmode gui -wdb test_encoder_be
 Design successfully loaded
 Design Loading Memory Usage: 21264 KB (Peak: 21264 KB)
 Design Loading CPU Usage: 265 ms
+Simulation completed
+Simulation Memory Usage: 21668 KB (Peak: 21668 KB)
+Simulation CPU Usage: 296 ms

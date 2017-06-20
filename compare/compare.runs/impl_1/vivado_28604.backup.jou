@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Jun 20 10:53:45 2017
+# Process ID: 30168
+# Log file: D:/FPGA_basys3/compare/compare.runs/impl_1/compare.vdi
+# Journal file: D:/FPGA_basys3/compare/compare.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source compare.tcl -notrace
