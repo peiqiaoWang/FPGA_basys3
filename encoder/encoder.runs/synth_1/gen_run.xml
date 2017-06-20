@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1497831467">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1497923704">
+  <File Type="RDS-DCP" Name="encoder.dcp"/>
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
-  <File Type="RDS-DCP" Name="code_key_top.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="encoder_utilization_synth.pb"/>
   <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
-  <File Type="RDS-UTIL-PB" Name="code_key_top_utilization_synth.pb"/>
+  <File Type="RDS-PROPCONSTRS" Name="encoder_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="encoder.tcl"/>
   <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
-  <File Type="PA-TCL" Name="code_key_top.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="code_key_top_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="code_key_top.vds"/>
-  <File Type="RDS-UTIL" Name="code_key_top_utilization_synth.rpt"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="code_key_top_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="code_key_top_timing_summary_synth.pb"/>
+  <File Type="RDS-RDS" Name="encoder.vds"/>
+  <File Type="RDS-UTIL" Name="encoder_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="encoder_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="encoder_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/clk_div.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/code_key_top.v">
+    <File Path="$PSRCDIR/sources_1/new/encoder.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -29,13 +22,13 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="code_key_top"/>
+      <Option Name="TopModule" Val="encoder"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PSRCDIR/constrs_1/new/code_key.xdc">
+    <File Path="$PSRCDIR/constrs_1/new/encoder.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -46,7 +39,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

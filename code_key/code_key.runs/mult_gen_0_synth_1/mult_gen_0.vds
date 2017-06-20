@@ -1,0 +1,317 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Jun 20 06:51:26 2017
+# Process ID: 4548
+# Log file: D:/FPGA_basys3/code_key/code_key.runs/mult_gen_0_synth_1/mult_gen_0.vds
+# Journal file: D:/FPGA_basys3/code_key/code_key.runs/mult_gen_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_gen_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'mult_gen_0' generated file not found 'd:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_gen_0' generated file not found 'd:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_gen_0' generated file not found 'd:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_gen_0' generated file not found 'd:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_0_funcsim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mult_gen_0' generated file not found 'd:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_0_funcsim.vhdl'. Please regenerate to continue.
+Command: synth_design -top mult_gen_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 271.910 ; gain = 78.664
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mult_gen_0' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/synth/mult_gen_0.vhd:68]
+INFO: [Synth 8-3491] module 'mult_gen_v12_0' declared at 'd:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0.vhd:106' bound to instance 'U0' of component 'mult_gen_v12_0' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/synth/mult_gen_0.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_v12_0' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0.vhd:145]
+INFO: [Synth 8-3491] module 'mult_gen_v12_0_viv' declared at 'd:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:20722' bound to instance 'i_mult' of component 'mult_gen_v12_0_viv' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_v12_0_viv' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:20771]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:852]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:853]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:860]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:874]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:881]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:891]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:900]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:922]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:935]
+INFO: [Synth 8-638] synthesizing module 'luts' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:4688]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:4899]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:4899]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:4899]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:4899]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:4899]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5120]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5171]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5172]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5173]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5174]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5175]
+INFO: [Synth 8-638] synthesizing module 'op_resize' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:4018]
+INFO: [Synth 8-256] done synthesizing module 'op_resize' (1#1) [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:4018]
+INFO: [Synth 8-113] binding component instance 'ma0' to cell 'MULT_AND' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5306]
+INFO: [Synth 8-113] binding component instance 'muxcy00' to cell 'MUXCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5311]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5317]
+INFO: [Synth 8-113] binding component instance 'ma0' to cell 'MULT_AND' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5327]
+INFO: [Synth 8-113] binding component instance 'muxcy0' to cell 'MUXCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5332]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5338]
+INFO: [Synth 8-113] binding component instance 'ma0' to cell 'MULT_AND' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5327]
+INFO: [Synth 8-113] binding component instance 'muxcy0' to cell 'MUXCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5332]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5338]
+INFO: [Synth 8-113] binding component instance 'ma0' to cell 'MULT_AND' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5327]
+INFO: [Synth 8-113] binding component instance 'muxcy0' to cell 'MUXCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5332]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5338]
+INFO: [Synth 8-113] binding component instance 'ma0' to cell 'MULT_AND' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5327]
+INFO: [Synth 8-113] binding component instance 'muxcy0' to cell 'MUXCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5332]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5338]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5349]
+INFO: [Synth 8-113] binding component instance 'ma0' to cell 'MULT_AND' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5306]
+INFO: [Synth 8-113] binding component instance 'muxcy00' to cell 'MUXCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5311]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5317]
+INFO: [Synth 8-113] binding component instance 'ma0' to cell 'MULT_AND' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5327]
+INFO: [Synth 8-113] binding component instance 'muxcy0' to cell 'MUXCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5332]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5338]
+INFO: [Synth 8-113] binding component instance 'ma0' to cell 'MULT_AND' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5327]
+INFO: [Synth 8-113] binding component instance 'muxcy0' to cell 'MUXCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5332]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5338]
+INFO: [Synth 8-113] binding component instance 'ma0' to cell 'MULT_AND' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5327]
+INFO: [Synth 8-113] binding component instance 'muxcy0' to cell 'MUXCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5332]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5338]
+INFO: [Synth 8-113] binding component instance 'ma0' to cell 'MULT_AND' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5327]
+INFO: [Synth 8-113] binding component instance 'muxcy0' to cell 'MUXCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5332]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5338]
+INFO: [Synth 8-113] binding component instance 'xorcy0' to cell 'XORCY' [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:5349]
+INFO: [Synth 8-256] done synthesizing module 'luts' (2#1) [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:4688]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_v12_0_viv' (3#1) [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0_vh_rfs.vhd:20771]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_v12_0' (4#1) [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_v12_0/hdl/mult_gen_v12_0.vhd:145]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_0' (5#1) [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/synth/mult_gen_0.vhd:68]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 316.008 ; gain = 122.762
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 316.008 ; gain = 122.762
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/FPGA_basys3/code_key/code_key.runs/mult_gen_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/FPGA_basys3/code_key/code_key.runs/mult_gen_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  MULT_AND => LUT2: 10 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 602.211 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/FPGA_basys3/code_key/code_key.runs/mult_gen_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 602.211 ; gain = 408.965
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 602.211 ; gain = 408.965
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT2     |     5|
+|2     |LUT3     |     1|
+|3     |LUT4     |     8|
+|4     |LUT5     |     1|
+|5     |LUT6     |     2|
+|6     |MULT_AND |    10|
+|7     |MUXCY    |    10|
+|8     |XORCY    |    12|
+|9     |FDRE     |     8|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 602.211 ; gain = 408.965
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 602.211 ; gain = 75.141
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 602.211 ; gain = 408.965
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/FPGA_basys3/code_key/code_key.srcs/sources_1/ip/mult_gen_0/mult_gen_0_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 14 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 4 instances
+  MULT_AND => LUT2: 10 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+60 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 602.211 ; gain = 378.250
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 602.211 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 20 06:52:06 2017...

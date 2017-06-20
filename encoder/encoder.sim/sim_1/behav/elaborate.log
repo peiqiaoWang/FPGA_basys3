@@ -1,0 +1,18 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto f72b304bb4f2468fab32bcd672ca819b --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_encoder_behav xil_defaultlib.test_encoder xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/FPGA_basys3/encoder/encoder.srcs/sources_1/new/encoder.v" Line 23. Module encoder has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/FPGA_basys3/encoder/encoder.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/FPGA_basys3/encoder/encoder.srcs/sources_1/new/encoder.v" Line 23. Module encoder has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/FPGA_basys3/encoder/encoder.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.encoder
+Compiling module xil_defaultlib.test_encoder
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot test_encoder_behav
