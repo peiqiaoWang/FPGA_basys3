@@ -2,3 +2,6 @@ Running: xsim.dir/one_hot_behav/xsimk.exe -simmode gui -wdb one_hot_behav.wdb -s
 Design successfully loaded
 Design Loading Memory Usage: 21792 KB (Peak: 21792 KB)
 Design Loading CPU Usage: 296 ms
+Simulation completed
+Simulation Memory Usage: 22176 KB (Peak: 22176 KB)
+Simulation CPU Usage: 312 ms

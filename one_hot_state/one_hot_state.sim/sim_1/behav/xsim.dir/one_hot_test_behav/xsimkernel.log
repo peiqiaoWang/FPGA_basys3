@@ -2,3 +2,6 @@ Running: xsim.dir/one_hot_test_behav/xsimk.exe -simmode gui -wdb one_hot_test_be
 Design successfully loaded
 Design Loading Memory Usage: 21560 KB (Peak: 21560 KB)
 Design Loading CPU Usage: 265 ms
+Simulation completed
+Simulation Memory Usage: 21968 KB (Peak: 21968 KB)
+Simulation CPU Usage: 265 ms
